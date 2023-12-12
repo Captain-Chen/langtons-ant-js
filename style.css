@@ -1,0 +1,14 @@
+#canvas{
+  border: 2px solid gray;
+}
+
+.heading{
+  font: bold 16px "Helvetica", "Arial", sans-serif;
+  width: 400px;
+  background: #BBB;
+  letter-spacing: -1px;
+  margin: 0 0 8px 0;
+  color: #222;
+  padding: 2px 4px 1px 4px;
+  clear: both;
+}

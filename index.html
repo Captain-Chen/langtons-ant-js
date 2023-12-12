@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+  <title>Langton's Ant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p>Implementation of <a href="https://en.wikipedia.org/wiki/Langton's_ant">Langton's Ant</a> using Canvas API for rendering</p>
+	<canvas id="canvas"></canvas>
+	<section>
+	  <label for="iteration">Iteration:</label>
+	  <span id="iteration">n/a</span></br>
+	</section>
+	<div class="heading">What is this?</div>
+	<section>
+	  <ul>
+		<li>This is a simulation of <a href="https://en.wikipedia.org/wiki/Langton's_ant">Langton's Ant</a> where 4 ants (indicated by red squares) are simultaneously carving out a pattern on the board based on a set of rules as listed below.
+		</li>
+		<li>The board's dimensions are <span id="width"></span> by <span id="height"></span> tiles.</li>
+	  </ul>
+	</section>
+	<div class="heading">Rules that dictate the ant's behaviour</div>
+	<section>
+	  <ul>
+		<li>At a white square, turn 90° clockwise, flip the color of the square, move forward one unit</li>
+		<li>At a black square, turn 90° counter-clockwise, flip the color of the square, move forward one unit</li>
+	  </ul>
+	</section>
+</body>
+<script type="text/javascript" src="langtons-ant.js"></script>
+</html>
